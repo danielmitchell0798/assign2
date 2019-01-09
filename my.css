@@ -1,0 +1,100 @@
+body{
+font-size: 95%;
+font-family: "Times New Roman", Serif;
+width: 95%;
+max-width: 1200px;
+margin: 15px;
+}
+
+header{
+text-align: center;
+font-variant: small-caps;
+background-color: #00fff6;
+}
+
+nav{
+text-align: center;
+margin-bottom: 15px;
+}
+
+nav ul{
+font-variant: small-caps;
+list-style-type: none;
+margin: 0px;
+}
+
+nav ul li{
+font-weight: bold;
+display: inline;
+margin: 0px 10px 0px 10px;
+}
+
+nav ul li a{
+text-decoration: none;
+}
+
+nav ul li a:hover{
+text-decoration: none;
+font-weight: bold;
+background-color: red;
+color: yellow;
+}
+
+section.information{
+margin: 0px 10px 0px 10px;
+}
+
+section.information h1{
+color: rgb(0, 0, 255);
+font-style: italic;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+
+section.information aside{
+color: silver;
+}
+
+section.information th{
+background-color: lime;
+}
+
+section.information td{
+background-color: yellow;
+}
+
+section.information td:hover{
+background-color: red;
+}
+#Spinach, #Pizza, #Taco{
+width: 60%;
+float: left;
+padding-bottom: 15px;
+}
+#Pepsi, #Enchilada{
+width: 28%;
+margin-left: 62%;
+}
+#Fish, #Sandwich{
+border-top: 2px solid red;
+border-bottom: 2px solid red;
+clear: both;
+background-color: #ececec;
+}
+#WTFBBQ{
+width: 28%;
+margin-left: 62%;
+text-align: center;
+}
+img{
+width: 40%;
+float: left;
+margin-right: 10px;
+}
+footer{
+text-align: center;
+color: red;
+font-size: 85%;
+clear: both;
+padding-top: 25px;
+}
